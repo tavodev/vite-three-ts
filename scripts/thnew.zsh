@@ -12,7 +12,5 @@ thnew() {
     && pnpm install \
     && git init -q \
     && git add -A \
-    && git commit -qm "init from vite-three-ts template" \
-    && { command -v code >/dev/null && code . ; true } \
-    && pnpm dev
+    && git commit -qm "init from vite-three-ts template"
 }
