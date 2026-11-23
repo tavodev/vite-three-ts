@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+  background: #111;
+}
+
+#webgl {
+  position: fixed;
+  inset: 0;
+  outline: none;
+}
