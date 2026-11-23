@@ -5,7 +5,7 @@ Boilerplate: Vite + Three.js + TypeScript estricto + pnpm.
 ## Nuevo proyecto
 
 ```zsh
-three-new mi-experimento
+thnew mi-experimento
 ```
 
 O sin la función:

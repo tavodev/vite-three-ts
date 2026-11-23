@@ -1,9 +1,9 @@
 # Crea un proyecto nuevo desde la plantilla vite-three-ts.
-# Uso: three-new <nombre>
-three-new() {
-  local name="${1:?Uso: three-new <nombre>}"
+# Uso: thnew <nombre>
+thnew() {
+  local name="${1:?Uso: thnew <nombre>}"
   if [[ -e "$name" ]]; then
-    echo "three-new: '$name' ya existe" >&2
+    echo "thnew: '$name' ya existe" >&2
     return 1
   fi
   pnpm dlx tiged --mode=tar tavodev/vite-three-ts "$name" \
